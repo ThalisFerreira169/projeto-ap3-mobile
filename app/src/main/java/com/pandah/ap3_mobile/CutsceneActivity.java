@@ -32,10 +32,10 @@ public class CutsceneActivity extends Activity
 
     // Frases da cutscene
     private final String[] phrases = {
-            // "Em um mundo onde as notas baixas ameaçam todos os estudantes...",
-            // "Onde a cada final de semestre a possibilidade de que as lendas se confirmem...",
-            // "E que a NAF venha ameaçar as férias de todos...",
-            // "Surge um herói...",
+            "Em um mundo onde as notas baixas ameaçam todos os estudantes...",
+            "Onde a cada final de semestre a possibilidade de que as lendas se confirmem...",
+            "E que a NAF venha ameaçar as férias de todos...",
+            "Surge um herói...",
             "Você!"
     };
 
