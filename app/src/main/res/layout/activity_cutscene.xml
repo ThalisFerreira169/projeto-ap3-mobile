@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cutscene_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fied_png_edited"
+    android:gravity="center"
+    android:padding="24dp" >
+
+    <TextView
+        android:id="@+id/cutsceneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/game_font"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:text=""
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/game_font"
+        android:hint="@string/player_name"
+        android:textColor="#111111"
+        android:textColorHint="#333333"
+        android:background="@drawable/name_input"
+        android:visibility="gone"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:id="@+id/startButton"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/init_button"
+        android:visibility="gone"
+        android:contentDescription="@string/play_game"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+</LinearLayout>

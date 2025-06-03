@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AP3 - Mobile</string>
+
+    <string name="game_name">Todos contra a NAF</string>
+    <string name="play_button_text">Play Button</string>
+    <string name="player_name">Seu nome</string>
+    <string name="play_game">Iniciar</string>
+    <string name="points">Pontos: </string>
+    <string name="ranking">Ranking: </string>
+    <string name="level_1">Level 1 - BÁSICO</string>
+    <string name="level_2">Level 2 - INTERMEDIÁRIO</string>
+    <string name="level_3">Level 3 - AVANÇADO</string>
+    <string name="level_4">Level 4 - EXPERT</string>
+    <string name="level_5">Level 5 - MESTRE</string>
+    <string name="resetar_dados">Resetar Dados</string>
+</resources>
